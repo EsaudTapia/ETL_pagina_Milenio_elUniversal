@@ -1,0 +1,13 @@
+news_sites:
+  eluniversal:
+    url: https://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article-title: '.h1'
+  milenio:
+    url: https://www.milenio.com
+    queries:
+      homepage_article_links: '.sn-base-base-noheading a'
+      article_body: '#content-body'
+      article-title: '.nd-title-headline-title-headline-base h1'
